@@ -17,22 +17,22 @@ an example of how to read the raw binary data recorded by AWR2944P and transfer 
 
 # AUTO_CAPTURE.lua
 If you don't want to excuate so many befor-mentioned files, then load and run this lua file in mmWave Studio. It will configure all paranmeters automatically. After load this file, you may change some parameters value by you self. For example, in our experiment, change following parameters in SensroConfig tag to corresponding valus: <br>
-Profile:
-      Start Freq --> 76.50 <br>
-      Frequency Slop --> 112.009 <br>
-      Idle Time --> 5.00 <br>
-      ADC samples --> 256 <br>
-      Sample Rate --> 8000 <br>
-      Ramp End Time --> 40.00 <br>
-      RX Gain --> 45 <br>
-      RF Gain Traget --> 34 dB <br>
-      VCO Select --> VCO2 <br>
-Frame；<br>
-      No of Chirp Loops --> 128 <br>
-      Start Chirp TX --> 0 <br>
-      End Chirp TX --> 0 <br>
-      No of Frame --> depneds <br>
-      Periodicity --> depneds <br>
+Profile: <br>
+      - Start Freq --> 76.50 <br>
+      - Frequency Slop --> 112.009 <br>
+      - Idle Time --> 5.00 <br>
+      - ADC samples --> 256 <br>
+      - Sample Rate --> 8000 <br>
+      - Ramp End Time --> 40.00 <br>
+      - RX Gain --> 45 <br>
+      - RF Gain Traget --> 34 dB <br>
+      - VCO Select --> VCO2 <br>
+Frame: <br>
+      - No of Chirp Loops --> 128 <br>
+      - Start Chirp TX --> 0 <br>
+      - End Chirp TX --> 0 <br>
+      - No of Frame --> depneds <br>
+      - Periodicity --> depneds <br>
 
 Attention: Idle Time + Ramp End Time = chirp duration, Periodicity must larger  (than No of Chirp Loops * chirp duration)
 
