@@ -33,5 +33,7 @@ Frame: <br>
 
 Attention: Idle Time + Ramp End Time = chirp duration, Periodicity must larger  (than No of Chirp Loops * chirp duration)
 
-
+# stero_gui.py 
+After execute AUTO_CAPTURE.lua, run stero_gui.py and click "开始" to start receive UDP data from TI radar and start depth camera. Click "停止" to stop. 
+!!!!!!! Remember put all python files of this repo under the same folder. 
 
