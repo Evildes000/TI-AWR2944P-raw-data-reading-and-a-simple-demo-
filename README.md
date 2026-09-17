@@ -4,9 +4,6 @@
 # DataCapture_AWR2944P.lua 
 is a lua file which can be used to configure AWR2944p automatically. Because AWR2944p is a brand new version of TI mmWave radar and there is almost no such lua file to configrue the radar, so this lua script is quite meaningfull as it can make radar confiuration more convenient. 
 
-# RadarConfigure.m
-Start mmWave Studio and load the lua file to it
-
 # SendCaptureCMD.m
 After run RadarConfig.m, run SendCaptureCMD.m to trigger frame
 
@@ -16,7 +13,7 @@ an example of how to read the raw binary data recorded by AWR2944P and transfer 
 
 
 # AUTO_CAPTURE.lua
-If you don't want to excuate so many befor-mentioned files, then load and run this lua file in mmWave Studio. It will configure all paranmeters automatically. After load this file, you may change some parameters value by you self. For example, in our experiment, change following parameters in SensroConfig tag to corresponding valus: <br>
+After executed RadarConfigure.m and changed parameters, load and run this lua file in mmWave Studio to start to capture frames. You may change some parameters value by you self. For example, in our experiment, change following parameters in SensroConfig tag to corresponding valus: <br>
 Profile: <br>
       - Start Freq --> 76.50 <br>
       - Frequency Slop --> 112.009 <br>
